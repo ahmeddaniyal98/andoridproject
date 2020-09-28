@@ -28,7 +28,17 @@
         android:hint="Enter your Name"
         android:inputType="textPersonName"
         android:textColorHint="#C52121"
-        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:background="#14D3CC"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        tools:layout_editor_absoluteY="159dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
