@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:background="#14D3CC"
-        android:text="Button"
+        android:text="Enter"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
         tools:layout_editor_absoluteY="159dp" />
 
