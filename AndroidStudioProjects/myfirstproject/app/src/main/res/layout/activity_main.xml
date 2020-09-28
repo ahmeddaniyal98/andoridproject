@@ -41,4 +41,11 @@
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
         tools:layout_editor_absoluteY="159dp" />
 
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="317dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
